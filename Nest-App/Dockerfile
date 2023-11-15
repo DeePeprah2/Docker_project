@@ -2,8 +2,8 @@ FROM amazonlinux:latest
 
 #install dependancies 
 RUN yum  update -y && \
-    yum install -y httpd && \
-    yum search wget && \
+Run yum install -y httpd && \
+Run yum search wget && \
     yum install wget -y && \
     yum install unzip -y
 
